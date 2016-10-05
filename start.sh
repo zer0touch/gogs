@@ -13,14 +13,6 @@ then
 	mkdir -p /opt/gogs/data /opt/gogs/conf /opt/gogs/log /opt/gogs/data/git /opt/gogs/git
 fi
 
-#test -d /data/gogs/templates || cp -ar ./templates /data/gogs/
-
-#ln -sf /data/gogs/log ./log
-#ln -sf /data/gogs/data ./data
-#ln -sf /data/git /home/git
-
-#rsync -rtv /data/gogs/templates/ ./templates/
-
 if ! test -d ~git/.ssh
 then
   mkdir ~git/.ssh

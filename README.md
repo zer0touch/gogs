@@ -1,6 +1,6 @@
 docker
 ===========
-[![Build Status](https://drone.service.consul/api/badge/gogs.service.consul/docker/gogs/status.svg?branch=master)](https://drone.service.consul/gogs.service.consul/docker/gogs)
+[![Build Status](https://travis-ci.org/zer0touch/gogs.svg?branch=master)](https://travis-ci.org/zer0touch/gogs)
 Dockerfile for [gogs](http://gogs.io) server(a self-hosted git service).
 
 ## Usage
