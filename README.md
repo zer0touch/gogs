@@ -1,14 +1,14 @@
-docker
+Gogs Docker Container
 ===========
 [![Build Status](https://travis-ci.org/zer0touch/gogs.svg?branch=master)](https://travis-ci.org/zer0touch/gogs)
 Dockerfile for [gogs](http://gogs.io) server(a self-hosted git service).
 
 ## Usage
 ```
-docker pull registry.service.consul/gogs
+docker pull zer0touch/gogs
 
 mkdir /var/gogs
-docker run -d -p 22:22 -p 3000:3000 -v /var/gogs:/data registry.service.consul/gogs
+docker run -d -p 22:22 -p 3000:3000 -v /var/gogs:/data zer0touch/gogs
 ```
 
 Open bowser and naviage to
